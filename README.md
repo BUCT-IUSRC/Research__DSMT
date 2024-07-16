@@ -21,8 +21,6 @@ Resulting image in runs/detect.
 ```bash
 $ python train.py --data data.yaml --cfg cfg.yaml --batch-size 18 --epochs 300 --weights ./weight.pt --workers 8 --label-smoothing 0.1 --img-size 640 --noautoanchor
 ```
-## Pubulication
-If you find this repository useful, please cite our [paper](https://arxiv.org/abs/2103.01955):
 ## Contact Us
 If you have any problem about this work, please feel free to reach us out at 2022200763@buct.edu.cn.
 
